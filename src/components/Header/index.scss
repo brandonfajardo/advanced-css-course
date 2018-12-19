@@ -1,16 +1,4 @@
-@import '../../sass/variables.scss';
-
-@keyframes moveInLeft {
-    0% { opacity: 0; transform: translateX(-10rem) }
-    80% { transform: translateX(1rem)}
-    100% { opacity: 1; transform: translateX(0) }
-}
-
-@keyframes moveInRight {
-    0% { opacity: 0; transform: translateX(10rem) }
-    80% { transform: translateX(-1rem)}
-    100% { opacity: 1; transform: translateX(0) }
-}
+@import '../../sass/abstracts/variables';
 
 .header {
     height: 95vh;
@@ -41,29 +29,5 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-    }
-
-    &__primary {
-        color: #fff;
-        text-transform: uppercase;
-        margin-bottom: 6rem;
-
-        &--main {
-            display: block;
-            font-size: 60px;
-            font-weight: 400;
-            letter-spacing: 3.5rem;
-        
-            animation: moveInLeft 1s ease-out;
-        }
-
-        &--sub {
-            display: block;
-            font-size: 2rem;
-            font-weight: 400;
-            letter-spacing: 1.75rem;
-            
-            animation: moveInRight 1s ease-out;
-        }
     }
 }

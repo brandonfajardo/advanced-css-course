@@ -11,9 +11,9 @@ const Header = () => {
             </div>
 
             <div class="header__text-box">
-                <h1 className="header__primary">
-                    <span className="header__primary--main">Outdoors</span>
-                    <span className="header__primary--sub">is where life happens</span>
+                <h1 className="heading__primary">
+                    <span className="heading__primary--main">Outdoors</span>
+                    <span className="heading__primary--sub">is where life happens</span>
                 </h1>
                 <AnimatedButton />
             </div>
