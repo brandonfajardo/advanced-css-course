@@ -1,4 +1,4 @@
-// @import '../../sass/variables.scss';
+@import '../../sass/variables.scss';
 
 @keyframes moveInBottom {
     0% { opacity: 0; transform: translateY(3rem) }
@@ -48,11 +48,11 @@
     }
 
     &--white {
-        background-color: white;
+        background-color: $color-white;
         color: #777;
 
         &::after {
-            background-color: white;
+            background-color: $color-white;
         }
     }
 

@@ -1,4 +1,6 @@
-@import 'abstracts/variables';
+@import 'variables';
+@import 'mixins';
+@import 'grid';
 
 *, *::after, *::before {
   margin: 0;
