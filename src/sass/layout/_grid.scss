@@ -10,7 +10,6 @@
 
     [class^="col-"] { /* Select all classes that start with col- */
         float: left;
-        background-color: orangered;
 
         &:not(:last-child){
             margin-right: $gutter-horizontal;

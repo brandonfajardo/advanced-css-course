@@ -1,0 +1,17 @@
+.u {
+    &__text {
+        &--center {
+            text-align: center;
+        }
+    }
+
+    &__margin {
+        &--small {
+            margin-bottom: 2rem;
+        }
+        
+        &--big {
+            margin-bottom: 8rem;
+        }
+    }   
+}

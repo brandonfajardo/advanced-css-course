@@ -8,6 +8,9 @@
 
 @import 'layout/grid';
 
+@import 'components/button';
+@import 'components/composition';
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;

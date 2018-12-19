@@ -10,7 +10,7 @@ const Header = () => {
                 <img className="header__logo" src={logo} alt="logo" />
             </div>
 
-            <div class="header__text-box">
+            <div className="header__text-box">
                 <h1 className="heading__primary">
                     <span className="heading__primary--main">Outdoors</span>
                     <span className="heading__primary--sub">is where life happens</span>

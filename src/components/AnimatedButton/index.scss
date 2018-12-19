@@ -1,6 +1,6 @@
 @import '../../sass/abstracts/variables';
 
-.btn {
+.animated-btn {
     &:link, 
     &:visited, { 
         text-transform: uppercase;
@@ -11,6 +11,8 @@
         transition: all .2s;
         position: relative;
         font-size: 1.6rem;
+        animation: moveInBottom .5s ease-out .75s;
+        animation-fill-mode: backwards;
 
         &:hover {
             transform: translateY(-3px);
@@ -49,10 +51,5 @@
         &::after {
             background-color: $color-white;
         }
-    }
-
-    &--animate {
-        animation: moveInBottom .5s ease-out .75s;
-        animation-fill-mode: backwards;
     }
 }
