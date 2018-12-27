@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 
-import { Header, About } from './components'
+import { Header, About, Booking } from './components'
 
 class App extends Component {
   render() {
@@ -9,6 +9,7 @@ class App extends Component {
         <Header />
         <main>
           <About />
+          <Booking />
         </main>
       </Fragment>
     );
